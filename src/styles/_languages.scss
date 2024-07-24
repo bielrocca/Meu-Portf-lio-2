@@ -1,0 +1,33 @@
+.languages {
+    padding: 5.6vw;
+    min-height: 55vw;
+
+    &__title {
+        text-align: center;
+
+        @media (max-width: 640px) {
+            margin-top: 5vw;
+        }
+    }
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 25px;
+        height: 50vh;
+        max-width: 640px;
+        margin: 0 auto;
+
+        @media (max-width: 640px) {
+            flex-wrap: wrap;
+            height: 15vw;
+            padding-top: 30vw;
+        }
+    }
+
+    @media (max-width: 640px) {
+        min-height: 120vw;
+    }
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./dist/css/main.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Portifólio</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a target="_blank" href="https://www.linkedin.com/in/gabriel-lucas-b91252276/" class="button button--dark">LinkedIn</a>
+                </li>
+                <li class="header__links__item">
+                    <a target="_blank" href="https://github.com/bielrocca" class="button button--dark">GitHub</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">E-mail</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="wrapper">
+        <main class="wrapper__section">
+            <section id="painel" class="wrapper__module parallax parallax-1">
+                <a href=""><h1  data-aos="fade-up" data-aos-duration="1000">Bem-vindo ao meu Portifólio</h1></a>
+            </section>
+        </main>
+    </div>
+    <section class="about">
+        <h2 class="about__title title--small" data-aos="zoom-in" data-aos-duration="500">Hello! I'm Gabriel, Developer Fullstack <img height="30" src="./dist/images/emoji.gif" alt=""></h2>
+        <div class="container" data-aos="fade-right" data-aos-duration="1500">
+            <div class="about__details">
+                <p class="about__details__description text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nemo sapiente ducimus tempora ea repellat quis rerum, ullam excepturi, harum modi necessitatibus accusantium aspernatur ipsam maxime quam ratione dolorem repudiandae.
+                    Eum nemo sapiente ducimus tempora ea repellat quis rerum, ullam excepturi, harum modi necessitatibus accusantium aspernatur ipsam maxime quam ratione dolorem repudiandae.
+                    harum modi necessitatibus accusantium aspernatur ipsam maxime quam ratione dolorem repudiandae. harum modi necessitatibus accusantium aspernatur ipsam maxime quam ratione dolorem repudiandae.
+                </p>
+            </div>
+            <img class="about__image" src="./dist/images/gif_computer.gif" alt="Programador">
+        </div>
+    </section>
+    <section class="about about--image-left">
+        <div class="container" data-aos="fade-left" data-aos-duration="1500">
+            <div class="about__details">
+                <p class="about__details__description text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nemo sapiente ducimus tempora ea repellat quis rerum, ullam excepturi, harum modi necessitatibus accusantium aspernatur ipsam maxime quam ratione dolorem repudiandae.
+                    Eum nemo sapiente ducimus tempora ea repellat quis rerum, ullam excepturi, harum modi necessitatibus accusantium aspernatur ipsam maxime quam ratione dolorem repudiandae.
+                </p>
+            </div>
+            <img class="about__image" src="./dist/images/computer-programmer.jpg" alt="Programador">
+        </div>
+    </section>
+    <section class="shows">
+        <nav class="shows__tabs" data-aos="fade-right" data-aos-duration="2000">
+            <button data-tab-button="destaques" class="shows__tabs__button shows__tabs__button--is-active">
+                Destaques
+            </button>
+            <button data-tab-button="variados" class="shows__tabs__button">
+                Variados
+            </button>
+            <button data-tab-button="divertidos" class="shows__tabs__button">
+                Divertidos
+            </button>
+        </nav>
+        <ul data-tab-id="destaques" class="shows__list shows__list--is-active">
+            <li class="shows__list__item" data-aos="fade-right"  data-aos-duration="1000">
+                <a target="_blank" href="https://disney-plus-liard.vercel.app/"><img src="./dist/images/Disney_Plus.PNG" alt="Projeto Dinsey+"></a>
+            </li>
+            <li class="shows__list__item" data-aos="fade-right" data-aos-duration="1200">
+                <a target="_blank" href="https://netflix-eight-sooty.vercel.app/"><img src="./dist/images/Netflix.PNG" alt="Projeto Netflix"></a>
+            </li>
+            <li class="shows__list__item" data-aos="fade-right" data-aos-duration="1400">
+                <a target="_blank" href="https://projeto-minds2you.vercel.app/"><img src="./dist/images/minds2you.PNG" alt="Projeto minds2you"> </a>
+            </li>
+            <li class="shows__list__item" data-aos="fade-right" data-aos-duration="1600">
+                <a target="_blank" href="https://projectnode.vercel.app/"><img src="./dist/images/projectnode.PNG" alt="Projeto projectnode"></a>
+            </li>
+            <li class="shows__list__item" data-aos="fade-right" data-aos-duration="1800">
+                <a target="_blank" href="https://agendamento-pied.vercel.app/"><img src="./dist/images/Agenda.PNG" alt="Projeto Agenda"></a>
+            </li>
+            <li class="shows__list__item" data-aos="fade-right" data-aos-duration="2000">
+                <a target="_blank" href="https://cadastro-com-sass.vercel.app/"><img src="./dist/images/Cadastro_SASS.PNG" alt="Projeto Cadastro SASS"></a>
+            </li>
+        </ul>
+        <ul data-tab-id="variados" class="shows__list">
+            <li class="shows__list__item">
+                <a target="_blank" href="https://github.com/bielrocca/Elden-Ring-CheatEngine"><img src="./dist/images/cheat_elden_ring.PNG" alt="Projeto cheat elden ring"></a>
+            </li>
+            <li class="shows__list__item">
+                <a target="_blank" href="https://bieldev-calculadora-de-medias.vercel.app/"><img src="./dist/images/Calculadora_Medias.PNG" alt="Projeto Calculadora_Medias"></a>
+            </li>
+            <li class="shows__list__item">
+                <a target="_blank" href="https://global-colors.vercel.app/"><img src="./dist/images/GlobalColor.PNG" alt="Projeto GlobalColor"></a>
+            </li>
+            <li class="shows__list__item">
+                <a target="_blank" href="https://imperium-rocket.vercel.app/"><img src="./dist/images/ImperiumRocket.PNG" alt="Projeto ImperiumRocket"></a>
+            </li>
+            <li class="shows__list__item">
+                <img src="https://placehold.co/600x300" alt="None">
+            </li>
+            <li class="shows__list__item">
+                <img src="https://placehold.co/600x300" alt="None">
+            </li>
+        </ul>
+        <ul data-tab-id="divertidos" class="shows__list">
+            <li class="shows__list__item">
+                <a target="_blank" href="https://sorteadorgruntbiel.vercel.app/"><img src="./dist/images/Sorteador.PNG" alt="Projeto Sorteador"></a>
+            </li>
+            <li class="shows__list__item">
+                <img src="https://placehold.co/600x300" alt="None">
+            </li>
+            <li class="shows__list__item">
+                <img src="https://placehold.co/600x300" alt="None">
+            </li>
+            <li class="shows__list__item">
+                <img src="https://placehold.co/600x300" alt="None">
+            </li>
+            <li class="shows__list__item">
+                <img src="https://placehold.co/600x300" alt="None">
+            </li>
+            <li class="shows__list__item">
+                <img src="https://placehold.co/600x300" alt="None">
+            </li>
+        </ul>
+    </section>
+    <section class="languages">
+        <h2 class="languages__title title--small" data-aos="fade-down" data-aos-duration="1000">Languages and softwares</h2>
+        <div class="languages__container">
+            <img height="50" data-aos="fade-right" data-aos-duration="1200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png" alt="CSS Logo">
+            <img height="50" data-aos="fade-right" data-aos-duration="1400" src="https://camo.githubusercontent.com/f2ce4039c99cf35adde738583ab0fbcd60eaafccf1e949884bda91d0b5c819ce/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f68746d6c352f68746d6c352d6f726967696e616c2e737667" alt="HTLM Logo">
+            <img height="50" data-aos="fade-right" data-aos-duration="1600" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Logo">
+            <img height="50" data-aos="fade-right" data-aos-duration="1800" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python Logo">
+            <img height="50" data-aos="fade-right" data-aos-duration="1800" src="https://camo.githubusercontent.com/2cde166000bd4271614ef8c0a7e435af8a087c05f4d5a36f1945663d363bd463/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6e6f64656a732f6e6f64656a732d6f726967696e616c2e737667" alt="Node Js Logo">
+            <img height="50" data-aos="fade-right" data-aos-duration="1800" src="https://img.icons8.com/?size=100&id=rgPSE6nAB766&format=png&color=000000" alt="MySQL Logo">
+            <img height="50" data-aos="fade-right" data-aos-duration="1800" src="https://camo.githubusercontent.com/2facb89b414f4beb89250ff00956b210e030d79c1c78489e555fc2921e158b8a/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f706f737467726573716c2f706f737467726573716c2d6f726967696e616c2e737667" alt="PostegreSQL Logo">
+            <img height="50" data-aos="fade-right" data-aos-duration="2000" src="https://camo.githubusercontent.com/38827655e1ae0e1518d635ad89e8aa46b7f977c795952245c36a2d58064f1803/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6769742f6769742d6f726967696e616c2e737667" alt="Git logo">
+            <img height="50" data-aos="fade-right" data-aos-duration="2200" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/visual-studio-code-icon.png" alt="VsCode logo">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./dist/js/main.js"></script>
+</body>
+</html>
